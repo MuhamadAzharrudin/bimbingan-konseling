@@ -1,6 +1,9 @@
 {
     "recommendations": [
         "dzhavat.bracket-pair-toggler",
-        "wraith13.bracket-lens"
+        "wraith13.bracket-lens",
+        "janne252.fontawesome-autocomplete",
+        "narasimapandiyan.jetbrainsmono",
+        "seyyedkhandon.firacode"
     ]
 }
