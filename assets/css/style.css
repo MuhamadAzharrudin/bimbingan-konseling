@@ -394,3 +394,40 @@ footer a {
   font-size: 35px;
   color: black;
 }
+
+.video {
+  margin-top: 20px;
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-top: 50px;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.cardd {
+  width: calc(50% - 10px); /* 50% width for each card with 10px spacing in between */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cardd img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0; /* rounded corners only at the top */
+}
+
+.cardd p {
+  padding: 10px;
+  text-align: center;
+}
+
+.cardd p a {
+  text-decoration: none;
+  color: black;
+}
